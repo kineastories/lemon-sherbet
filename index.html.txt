@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лимонный щербет — Книжные боксы</title>
+    <style>
+        body { font-family: 'Georgia', serif; margin: 0; padding: 0; background-color: #fcfbf7; color: #2b3a2a; }
+        header { background-color: #fffdf3; padding: 20px; text-align: center; border-bottom: 1px solid #eadeb8; }
+        .logo { font-size: 24px; font-weight: bold; color: #d4a373; }
+        .hero { text-align: center; padding: 60px 20px; background-color: #fffebb; }
+        .hero h1 { font-size: 40px; margin-bottom: 10px; }
+        .hero p { font-size: 18px; font-style: italic; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        .section-title { text-align: center; font-size: 28px; margin-bottom: 30px; }
+        .catalog { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .product-card { background: white; border: 1px solid #eadeb8; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .product-card img { max-width: 100%; height: 200px; object-fit: cover; border-radius: 4px; }
+        .product-title { font-size: 20px; margin: 15px 0 10px 0; }
+        .product-price { font-weight: bold; color: #d4a373; margin-bottom: 15px; }
+        .btn { display: inline-block; background-color: #2b3a2a; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; font-weight: bold; }
+        .faq-item { background: white; border: 1px solid #eadeb8; padding: 15px; margin-bottom: 10px; border-radius: 4px; }
+        .faq-question { font-weight: bold; margin-bottom: 5px; }
+        footer { background-color: #2b3a2a; color: white; text-align: center; padding: 30px 20px; font-size: 14px; }
+        footer a { color: #fffebb; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+    <header><div class="logo">Лимонный щербет</div></header>
+    <section class="hero">
+        <h1>Лимонный щербет</h1>
+        <p>«Книги, которые хочется читать»</p>
+        <br><a href="#catalog" class="btn">Смотреть каталог</a>
+    </section>
+    <div class="container" id="catalog">
+        <h2 class="section-title">Каталог боксов</h2>
+        <div class="catalog">
+            <div class="product-card">
+                <div class="product-title">Книжный бокс-сюрприз</div>
+                <p>Выбирайте любимый жанр, а внутри вас будет ждать секретная книга и уютный мерч.</p>
+                <div class="product-price">от 1 900 ₽</div>
+                <a href="#" class="btn">Выбрать и купить</a>
+            </div>
+            <div class="product-card">
+                <div class="product-title">Индивидуальный бокс</div>
+                <p>Назовите любую книгу, и мы соберем уникальный набор под её неповторимую атмосферу.</p>
+                <div class="product-price">Цена зависит от книги</div>
+                <a href="#" class="btn">Оставить заявку</a>
+            </div>
+            <div class="product-card">
+                <div class="product-title">Зимний бокс «Гарри Поттер»</div>
+                <p>Ограниченный тираж. Семикнижье в эксклюзивном оформлении и тематический мерч.</p>
+                <div class="product-price">7 500 ₽</div>
+                <a href="#" class="btn">Предзаказ</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="section-title">Вопросы и ответы</h2>
+        <div class="faq-item">
+            <div class="faq-question">❓ Как работает бокс-сюрприз?</div>
+            <div>Вы выбираете только жанр. Какая именно книга внутри — останется тайной до момента распаковки!</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">❓ Сколько времени собирается индивидуальный заказ?</div>
+            <div>Сборка занимает от 5 до 9 дней. Нам нужно заказать книгу и бережно создать под неё мерч.</div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2026 Книжный бренд «Лимонный щербет»</p>
+        <p><a href="#">Политика конфиденциальности</a> | <a href="#">Публичная оферта</a></p>
+    </footer>
+</body>
+</html>
